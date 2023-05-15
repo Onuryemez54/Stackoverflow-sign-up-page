@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+}
+body { 
+    background: #F1F2F3;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    position: relative;
+}
+.container {
+    position: absolute;
+    right: 10vw;
+    display: flex;
+    height: 100vh;
+    width: 80vw;
+}
+.main-left {
+    width: 55%;
+    height: 100vh;
+    background-color: #F1F2F3;
+    margin: 0;
+    position: relative;
+}
+.main-left-content {
+  position: absolute;
+  right: 0;
+  top: 200px;
+  color:#232629;
+}
+h1 {
+    font-size: 27px;
+    font-weight: 400;
+}
+ul{
+    list-style-type:none;
+}
+.text-medium{
+    font-size: 15px;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.text-small{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.left-a {
+    text-decoration: none;
+    color:#0074CC;
+}
+   
+.main-right {
+    width: 45%;
+    height: 100vh;
+    background-color: #F1F2F3;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.sign-Up-btn {
+    background-color: #F1F2F3;
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    display: block;
+    margin: 4px auto;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    font-size: 13px;
+    cursor: pointer;   
+}
+.sign-Up-btn a {
+    text-decoration: none;
+}
+  .google {
+    background-color: #FFFFFF;
+    border: 2px solid rgb(214,217,220);
+    color: rgb(59,64,69);
+    margin-top: 20px;
+}
+.google:hover {
+    background-color: rgb(201, 201, 201);
+}
+.git {
+    background-color: #2F3337;
+    color:#FFFFFF;
+    border: 2px solid #2F3337;
+}
+.git:hover {
+    background-color: #000000;
+}
+.face {
+    background-color: #385499;
+    border: 2px solid #385499;
+    margin-bottom: 15px;
+    color: #FFFFFF;   
+}
+.face:hover {
+    background-color: #1b377e;
+}
+.form1 {
+    background-color: #FFFFFF;
+    width: 300px;
+    border-radius: 5px;
+    border: 2px solid rgb(231, 227, 227);
+    margin: 10px auto;
+}
+.formlabel {
+    display: flex; 
+    flex-direction: column;  
+    margin: 15px auto;
+    width: 250px;
+}
+input {
+    font-size: 17px; 
+    height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgb(144, 185, 204);
+}
+input:not(.in):focus {
+    outline: 0;
+    border: 1px solid rgb(18, 215, 241);
+    box-shadow: 0 0 1px 1px #279fbd
+}
+label {
+    font-size: 17px;
+    margin-bottom: 3px;
+}
+.small {
+    font-size: 0.7rem;
+    margin-top: -10px;
+}
+.formlabel-checkbox {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    width: 250px;
+}
+.medium {
+    font-size: 0.8rem;
+}
+.sign {
+    height: 40px;
+    background-color: #0074CC;
+    border-radius: 5px;
+    border: 2px double rgb(206, 191, 191) ;
+    color: white;
+    cursor: pointer;
+}
+.sign:hover {
+    background-color: #0b395c;
+}
+.right-a {
+    text-decoration: none;
+    color:#0074CC
+   }
+.para {
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F2F3;
+    width: 300px;
+    margin: 40px auto;
+    
+}
+.para1   {
+    font-size: 0.7rem;
+    margin: 5px  auto;
+}
+.para2 {
+   font-size: 0.8rem;
+   margin:  5px auto;
+}
+   
+
+
+
